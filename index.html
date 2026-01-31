@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbit - Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #111113;
+        --text: #f4f4f5;
+        --text-muted: #a1a1a6;
+        --accent: #818cf8;
+        --border: #2e2e32;
+        --warning-bg: #2d2006;
+        --warning-border: #5c4813;
+        --warning-text: #fbbf24;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 24px;
+      }
+
+      header {
+        margin-bottom: 32px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 8px;
+      }
+
+      .logo svg {
+        color: var(--accent);
+      }
+
+      .logo-text {
+        font-size: 28px;
+        font-weight: 700;
+        background: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      .tagline {
+        color: var(--text-muted);
+        font-size: 18px;
+      }
+
+      section {
+        margin-bottom: 32px;
+      }
+
+      h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        color: var(--text);
+      }
+
+      p {
+        color: var(--text-muted);
+        margin-bottom: 12px;
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      .warning {
+        background: var(--warning-bg);
+        border: 1px solid var(--warning-border);
+        border-radius: 8px;
+        padding: 12px 16px;
+        margin-top: 16px;
+      }
+
+      .warning p {
+        color: var(--warning-text);
+        margin: 0;
+        font-size: 14px;
+      }
+
+      footer {
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        text-align: center;
+        color: var(--text-muted);
+        font-size: 14px;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .last-updated {
+        color: var(--text-muted);
+        font-size: 14px;
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 100 100"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="50" cy="50" r="22" fill="currentColor" />
+            <ellipse
+              cx="50"
+              cy="50"
+              rx="42"
+              ry="14"
+              stroke="currentColor"
+              stroke-width="5"
+              transform="rotate(-20 50 50)"
+              fill="none"
+            />
+            <circle cx="85" cy="32" r="6" fill="currentColor" />
+          </svg>
+          <span class="logo-text">Orbit</span>
+        </div>
+        <h1>Privacy Policy</h1>
+        <p class="tagline">
+          Your privacy matters to Orbit. Your data will never be sold or
+          collected without your explicit permission.
+        </p>
+        <p class="last-updated">Last updated: January 2026</p>
+      </header>
+
+      <main>
+        <section>
+          <h2>Your Data Stays Local</h2>
+          <p>
+            All orbits you save (links, notes, code snippets) are stored
+            <strong>only in your browser</strong> using Chrome's local storage.
+            Your data is never uploaded to our servers or shared with anyone.
+          </p>
+          <div class="warning">
+            <p>
+              <strong>Note:</strong> Your data is stored in plain text on your
+              machine and is not encrypted. Avoid saving passwords, API keys, or
+              other sensitive information.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Account Information</h2>
+          <p>
+            If you choose to create an account, we collect only your
+            <strong>email address</strong> and a securely hashed
+            <strong>password</strong>. This information is used solely for
+            authentication. Your saved orbits remain local and are never synced
+            to our servers.
+          </p>
+        </section>
+
+        <section>
+          <h2>Pro Features &amp; Third-Party AI</h2>
+          <p>
+            Pro features use <strong>OpenAI's API</strong> to generate your
+            weekly digest. When a digest is triggered, the content of your
+            active orbits is sent to OpenAI for processing.
+          </p>
+          <p>
+            According to OpenAI's current API data usage policy, data sent via
+            their API is <strong>not used to train their models</strong> and is
+            retained for up to 30 days for abuse monitoring before deletion.
+          </p>
+          <p>
+            Our servers process your content ephemerally—it is never stored in
+            our database. After your digest email is sent, the content is
+            immediately discarded.
+          </p>
+          <div class="warning">
+            <p>
+              <strong>Important:</strong> Do not include passwords, API keys, or
+              other sensitive information in your orbits if you plan to use
+              AI-powered digests. By upgrading to Pro, you consent to your orbit
+              content being processed by OpenAI.
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <h2>No Ads, No Tracking</h2>
+          <p>
+            Orbit is completely <strong>ad-free</strong> and
+            <strong>tracking-free</strong>. We do not inject advertisements into
+            your browsing experience or track your activity. Your attention and
+            privacy are not for sale.
+          </p>
+        </section>
+
+        <section>
+          <h2>Data You Control</h2>
+          <p>
+            You have full control over your data:
+          </p>
+          <p>
+            <strong>Export:</strong> Download all your orbits as JSON at any
+            time from the extension settings.
+          </p>
+          <p>
+            <strong>Delete:</strong> Clear all local data from the extension
+            settings, or simply uninstall the extension.
+          </p>
+          <p>
+            <strong>Account deletion:</strong> If you have an account, you can
+            delete it from the extension settings. This removes your email and
+            authentication data from our servers.
+          </p>
+        </section>
+
+        <section>
+          <h2>Contact</h2>
+          <p>
+            If you have questions about this privacy policy, please open an
+            issue on our
+            <a href="https://github.com/danielhirt/orbit" target="_blank"
+              >GitHub repository</a
+            >.
+          </p>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Made with care by
+          <a href="https://github.com/danielhirt" target="_blank">Daniel Hirt</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
