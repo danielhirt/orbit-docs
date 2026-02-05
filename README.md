@@ -2,6 +2,8 @@
 
 Public documentation and legal pages for the [Orbit](https://github.com/danielhirt/orbit) Chrome extension.
 
+**[Install from Chrome Web Store](https://chromewebstore.google.com/detail/orbit/hfjdjkaoeodoblkckkcbplpphicdogag)**
+
 ## Pages
 
 - `index.html` — Privacy Policy
